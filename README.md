@@ -1,4 +1,4 @@
-# 🤖 BUJA – Heavy Duty Robotic Arm
+#BUJA – Heavy Duty Robotic Arm
 
 <img width="1024" height="461" alt="image_20260723_0615292fa298cc-38a8-4643-83a0-4dd2cc819ac6-1" src="https://github.com/user-attachments/assets/76cea7ed-75f4-4b1d-b1a4-e848fd328bf2" />
 
@@ -7,7 +7,7 @@ A large-scale multi-axis robotic arm powered by **Arduino Mega** and high-torque
 
 ---
 
-## 📖 Overview
+## Overview
 
 BUJA is a **4-foot heavy-duty robotic arm** designed to perform pick-and-place operations using multiple high-torque servo motors. The arm is manually controlled through potentiometers, enabling intuitive and precise movement of each joint in real time.
 
@@ -15,20 +15,20 @@ The project demonstrates embedded systems, robotics, servo motor control, and me
 
 ---
 
-## ✨ Features
+## Features
 
-- 🦾 Large-scale robotic arm (~4 ft)
-- ⚙️ Multi-axis servo motor control
-- 🎮 Real-time manual control using potentiometers
-- 🔄 Smooth joint movement
-- 🏗 Heavy-duty mechanical structure
-- 🔌 Arduino Mega based controller
-- 📈 Real-time analog signal processing
-- 🔧 Easily expandable for automation
+-  Large-scale robotic arm (~4 ft)
+-  Multi-axis servo motor control
+-  Real-time manual control using potentiometers
+-  Smooth joint movement
+-  Heavy-duty mechanical structure
+-  Arduino Mega based controller
+-  Real-time analog signal processing
+-  Easily expandable for automation
 
 ---
 
-# 🛠 Hardware Used
+# Hardware Used
 
 - Arduino Mega 2560
 - High Torque Servo Motors (MG996R / Industrial Servos)
@@ -39,7 +39,7 @@ The project demonstrates embedded systems, robotics, servo motor control, and me
 
 ---
 
-# 🏗 System Architecture
+# System Architecture
 
 ```text
 Potentiometers
@@ -61,7 +61,7 @@ Robotic Arm Movement
 
 ---
 
-# ⚙ Working Principle
+# Working Principle
 
 1. User rotates a potentiometer.
 2. Arduino reads the analog value.
@@ -72,7 +72,7 @@ Robotic Arm Movement
 
 ---
 
-# 📌 Pin Connections
+# Pin Connections
 
 ## Servo Motors
 
@@ -96,7 +96,7 @@ Robotic Arm Movement
 
 
 
-# 📂 Project Structure
+# Project Structure
 
 ```
 BUJA/
@@ -119,7 +119,7 @@ BUJA/
 
 ---
 
-# 🚀 Applications
+#  Applications
 
 - Industrial Pick-and-Place Systems
 - Warehouse Automation
@@ -130,7 +130,7 @@ BUJA/
 
 ---
 
-# 🔮 Future Improvements
+# Future Improvements
 
 - Inverse Kinematics
 - Computer Vision Integration
@@ -144,7 +144,7 @@ BUJA/
 
 ---
 
-# 📊 Technical Specifications
+# Technical Specifications
 
 | Parameter | Value |
 |------------|--------|
@@ -157,7 +157,7 @@ BUJA/
 
 ---
 
-# 📚 Learning Outcomes
+# Learning Outcomes
 
 This project helps in understanding:
 
@@ -171,7 +171,7 @@ This project helps in understanding:
 
 ---
 
-# 📸 Demonstration
+# Demonstration
 
 Add the following files inside the `images` folder:
 
@@ -183,7 +183,7 @@ Add the following files inside the `images` folder:
 
 ---
 
-# 🤝 Contributing
+# Contributing
 
 Contributions are welcome.
 
@@ -195,13 +195,13 @@ Contributions are welcome.
 
 ---
 
-# 📄 License
+# License
 
 This project is licensed under the MIT License.
 
 ---
 
-# 👨‍💻 Author
+# Author
 
 **BUJA – Heavy Duty Robotic Arm**
 
@@ -209,4 +209,4 @@ Developed as an embedded robotics project demonstrating real-time multi-axis rob
 
 ---
 
-⭐ If you found this project useful, please consider giving the repository a **Star**.
+If you found this project useful, please consider giving the repository a **Star**.
