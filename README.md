@@ -1,22 +1,13 @@
-#BUJA – Heavy Duty Robotic Arm
+## *BUJA – Heavy-Duty Multi-DOF Robotic Arm*
 
 <img width="1024" height="461" alt="image_20260723_0615292fa298cc-38a8-4643-83a0-4dd2cc819ac6-1" src="https://github.com/user-attachments/assets/76cea7ed-75f4-4b1d-b1a4-e848fd328bf2" />
 
-
-A large-scale multi-axis robotic arm powered by **Arduino Mega** and high-torque servo motors for heavy-duty object manipulation and real-time manual control.
-
----
+BUJA – Heavy-Duty Multi-DOF Robotic Arm with Arduino Mega-Based Manual Control and High-torque Servo Motors for Heavy-Duty Object Manipulation and Real-Time Manual Control.
 
 ## Overview
-
-BUJA is a **4-foot heavy-duty robotic arm** designed to perform pick-and-place operations using multiple high-torque servo motors. The arm is manually controlled through potentiometers, enabling intuitive and precise movement of each joint in real time.
-
-The project demonstrates embedded systems, robotics, servo motor control, and mechanical system design while serving as a foundation for future automation and AI-powered robotic applications.
-
----
+BUJA is a large-scale (4 ft), heavy-duty robotic arm engineered for multi-degree-of-freedom object manipulation. Built on an Arduino Mega, it uses high-torque servo motors (MG996R/industrial-grade) driven by potentiometer-based manual controls, enabling intuitive real-time joint positioning. Analog inputs are mapped to precise servo angles, demonstrating robust mechanical design, high-power actuation, and coordinated multi-axis control for lifting and positioning tasks.
 
 ## Features
-
 -  Large-scale robotic arm (~4 ft)
 -  Multi-axis servo motor control
 -  Real-time manual control using potentiometers
