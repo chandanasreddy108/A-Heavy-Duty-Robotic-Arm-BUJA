@@ -21,14 +21,17 @@ BUJA is a large-scale (4 ft), heavy-duty robotic arm engineered for multi-degree
 </p>
 
 ## Features
--  Large-scale robotic arm (~4 ft)
--  Multi-axis servo motor control
--  Real-time manual control using potentiometers
--  Smooth joint movement
+-  6-DOF robotic arm for flexible movement
 -  Heavy-duty mechanical structure
--  Arduino Mega based controller
--  Real-time analog signal processing
--  Easily expandable for automation
+-  High-torque servo motor actuation
+-  Precise joint angle control
+-  Wireless remote operation
+-  Smooth and stable arm movement
+-  Real-time control using Arduino Mega
+-  Multi-axis object manipulation
+-  Modular and upgradeable design
+-  Suitable for pick-and-place applications
+-  Easy calibration and maintenance
 
 ---
 
