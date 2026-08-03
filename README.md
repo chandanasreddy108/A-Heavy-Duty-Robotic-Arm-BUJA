@@ -33,18 +33,14 @@ BUJA is a large-scale (4 ft), heavy-duty robotic arm engineered for multi-degree
 -  Suitable for pick-and-place applications
 -  Easy calibration and maintenance
 
----
+## Hardware Used
 
-# Hardware Used
-
-- Arduino Mega 2560
-- High Torque Servo Motors (MG996R / Industrial Servos)
-- 10K Potentiometers
-- External 5V–7.4V Power Supply
-- Robotic Arm Frame
+- Arduino Mega: main microcontroller
+- High Torque Servo Motors (MG996R / industrial-grade servos)
+- Potentiometers (10kΩ × multiple): for manual joint control
+- Robotic Arm Structure: wood
+- External Power Supply (5V–7.4V, high current)
 - Jumper Wires
-
----
 
 # System Architecture
 
