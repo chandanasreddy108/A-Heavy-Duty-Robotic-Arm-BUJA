@@ -13,9 +13,9 @@ BUJA is a large-scale (4 ft), heavy-duty robotic arm engineered for multi-degree
 
 <p align="center">
 
-![Arduino Mega](https://img.shields.io/badge/Controller-Arduino%20Mega-00979D?logo=arduino)
-![Embedded C](https://img.shields.io/badge/Language-Embedded%20C-blue)
-![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
+![Arduino Mega](https://img.shields.io/badge/Controller-Arduino%20Mega-0C7C8C?logo=arduino)
+![Embedded C](https://img.shields.io/badge/Language-Embedded%20C-steelblue)
+![Status](https://img.shields.io/badge/Project-Completed-mutedforestgreen)
 ![Robotics](https://img.shields.io/badge/Domain-Industrial%20Robotics-orange)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
