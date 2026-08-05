@@ -36,102 +36,51 @@ BUJA is a large-scale (4 ft), heavy-duty robotic arm engineered for multi-degree
 
 ## Hardware Used
 
-- Arduino Mega: main microcontroller
-- High Torque Servo Motors (MG996R / industrial-grade servos)
-- Potentiometers (10kΩ × 6): for manual joint control
-- Robotic Arm Structure: Wood
-- External Power Supply (5V–7.4V, high current)
-- Jumper Wires
+| Component | Quantity | Description |
+|---|---|---|
+| Arduino Mega | 1 | Main microcontroller |
+| High Torque Servo Motors | 4 | MG996R / industrial-grade servos |
+| Potentiometers | 6 | 10kΩ, for manual joint control |
+| Robotic Arm Structure | 1 | Wood |
+| External Power Supply | 1 | 5V–7.4V, high current |
+| Jumper Wires | As needed | For circuit connections |
 
 ## System Architecture
 <p align="center">
-
 <img width="400" height="576" alt="buja" src="https://github.com/user-attachments/assets/0d1a6308-1607-4c41-be0f-e77088b6a2b3" />
 
 # Working Principle
 
-1. User rotates a potentiometer.
-2. Arduino reads the analog value.
-3. Analog values are mapped to servo angles.
-4. Servo motors receive PWM signals.
-5. Each robotic joint moves accordingly.
-6. The robotic arm mimics the user's movement in real time.
-
----
+1. User rotates potentiometers assigned to each joint (base, shoulder, elbow, wrist).
+2. Arduino Mega reads the corresponding analog values.
+3. Analog values are mapped to servo angles (0°–180°).
+4. Servo motors move to match the mapped angle.
+5. Arm responds in real time, mirroring user input for manual multi-axis control
 
 # Pin Connections
 
-## Servo Motors
+## Pin Configuration
 
-| Joint | Arduino Pin |
-|--------|-------------|
-| Base | D2 |
-| Shoulder | D3 |
-| Elbow | D4 |
-| Wrist | D5 |
+| Component | Signal | Arduino Mega Pin |
+|---|---|---|
+| Base Servo | Control (PWM) | Pin 2 |
+| Shoulder Servo | Control (PWM) | Pin 3 |
+| Elbow Servo | Control (PWM) | Pin 4 |
+| Wrist Servo | Control (PWM) | Pin 5 |
+| Potentiometer 1 (Base) | Analog Input | A0 |
+| Potentiometer 2 (Shoulder) | Analog Input | A1 |
+| Potentiometer 3 (Elbow) | Analog Input | A2 |
+| Potentiometer 4 (Wrist) | Analog Input | A3 |
+| Servo Power (VCC) | External Power Supply | 5V–7.4V (external) |
+| Servo Ground (GND) | Common Ground | GND |
+| Potentiometer VCC | Power | 5V (Arduino) |
+| Potentiometer GND | Ground | GND (Arduino) |
 
-## Potentiometers
+## Circuitry connections
+<p align="center">
+<img width="836" height="524" alt="ChatGPT Image Aug 5, 2026, 08_48_48 PM" src="https://github.com/user-attachments/assets/bed1e201-63e1-40c5-9cc2-47b492320811" />
 
-| Potentiometer | Arduino Pin |
-|---------------|-------------|
-| Base | A0 |
-| Shoulder | A1 |
-| Elbow | A2 |
-| Wrist | A3 |
-
----
-
-
-
-# Project Structure
-
-```
-BUJA/
-│
-├── README.md
-├── LICENSE
-├── code/
-│   └── BUJA.ino
-├── hardware/
-│   ├── wiring_diagram.png
-│   ├── mechanical_design.pdf
-│   └── BOM.xlsx
-├── images/
-│   ├── prototype.jpg
-│   ├── robotic_arm.jpg
-│   └── demo.gif
-└── docs/
-    └── future_work.md
-```
-
----
-
-#  Applications
-
-- Industrial Pick-and-Place Systems
-- Warehouse Automation
-- Educational Robotics
-- Research Projects
-- Embedded Systems Learning
-- Manufacturing Demonstrations
-
----
-
-# Future Improvements
-
-- Inverse Kinematics
-- Computer Vision Integration
-- Wireless ESP32 Control
-- Bluetooth Mobile App
-- Joystick Controller
-- ROS Integration
-- AI Object Detection
-- Camera-Based Automation
-- Position Feedback Encoders
-
----
-
-# Technical Specifications
+## Technical Specifications
 
 | Parameter | Value |
 |------------|--------|
@@ -142,58 +91,32 @@ BUJA/
 | Actuators | High Torque Servo Motors |
 | Power Supply | 5V–7.4V External Supply |
 
----
+##  Applications
 
-# Learning Outcomes
+- Industrial Pick-and-Place Systems
+- Warehouse Automation
+- Educational Robotics
+- Research Projects
+- Embedded Systems Learning
+- Manufacturing Demonstrations
+- Hazardous Object Handling
+- Prototype Testing
 
-This project helps in understanding:
+## Future Improvements
 
-- Arduino Programming
-- Servo Motor Control
-- PWM Signal Generation
-- Analog Sensor Interface
-- Robotic Arm Mechanics
-- Embedded Systems
-- Multi-Axis Motion Control
+- Add inverse kinematics for automated positioning
+- Replace potentiometers with joystick or wireless control
+- Integrate feedback sensors (encoders) for precision
+- Add vision system for object detection
+- Include load/pressure sensors to prevent overloading
+- Mount arm on a mobile base for greater reach
+  
+## License
 
----
+![License](https://img.shields.io/badge/License-MIT-3A3F44)
 
-# Demonstration
+This project is licensed under the **MIT License**
 
-Add the following files inside the `images` folder:
-
-- Prototype Image
-- Final Assembly
-- Wiring Diagram
-- Motion GIF
-- Working Video
-
----
-
-# Contributing
-
-Contributions are welcome.
-
-1. Fork the repository.
-2. Create a new feature branch.
-3. Commit your changes.
-4. Push your branch.
-5. Create a Pull Request.
-
----
-
-# License
-
-This project is licensed under the MIT License.
-
----
-
-# Author
-
-**BUJA – Heavy Duty Robotic Arm**
-
-Developed as an embedded robotics project demonstrating real-time multi-axis robotic control using Arduino Mega and high-torque servo motors.
-
----
-
-If you found this project useful, please consider giving the repository a **Star**.
+## Developed By
+- Chandana S
+- Koushik M
