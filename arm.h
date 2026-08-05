@@ -1,34 +1,29 @@
 #include <Servo.h>
 
-// Create servo objects
-Servo servo1;
-Servo servo2;
-Servo servo3;
-Servo servo4;
-Servo servo5;
-Servo servo6;
+Servo base, shoulder, elbow, wrist;
 
-// Potentiometer pins
-int potPins[] = {A0, A1, A2, A3, A4, A5};
-
-// Servo objects array
-Servo servos[] = {servo1, servo2, servo3, servo4, servo5, servo6};
+int pot1 = A0;
+int pot2 = A1;
+int pot3 = A2;
+int pot4 = A3;
 
 void setup() {
-  // Attach servo pins
-  servos[0].attach(3);
-  servos[1].attach(5);
-  servos[2].attach(6);
-  servos[3].attach(9);
-  servos[4].attach(10);
-  servos[5].attach(11);
+  base.attach(2);
+  shoulder.attach(3);
+  elbow.attach(4);
+  wrist.attach(5);
 }
 
 void loop() {
-  for(int i=0; i<6; i++){
-    int potValue = analogRead(potPins[i]);      // Read potentiometer (0-1023)
-    int angle = map(potValue, 0, 1023, 0, 180); // Map to servo angle
-    servos[i].write(angle);                     // Move servo
-  }
-  delay(15); // small delay for smooth motion
+  int val1 = analogRead(pot1);
+  int val2 = analogRead(pot2);
+  int val3 = analogRead(pot3);
+  int val4 = analogRead(pot4);
+
+  base.write(map(val1, 0, 1023, 0, 180));
+  shoulder.write(map(val2, 0, 1023, 0, 180));
+  elbow.write(map(val3, 0, 1023, 0, 180));
+  wrist.write(map(val4, 0, 1023, 0, 180));
+
+  delay(20);
 }
