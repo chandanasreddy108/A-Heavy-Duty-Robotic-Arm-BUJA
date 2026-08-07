@@ -3,7 +3,7 @@
 <img width="300" height="261" alt="image_20260723_0615292fa298cc-38a8-4643-83a0-4dd2cc819ac6-1" src="https://github.com/user-attachments/assets/76cea7ed-75f4-4b1d-b1a4-e848fd328bf2" />
 <img width="141" height="261" alt="WhatsApp Image 2026-07-31 at 11 26 10 AM" src="https://github.com/user-attachments/assets/79223a2e-cb32-4305-8699-a0ee22926654" />
 <img width="141" height="261" alt="WhatsApp Image 2026-07-31 at 11 26 09 AM (1)" src="https://github.com/user-attachments/assets/c91550dd-e441-4e2e-8b3c-e7f961e90bb0" />
-<img width="191" height="261" alt="WhatsApp Image 2026-07-31 at 11 26 09 AM" src="https://github.com/user-attachments/assets/f3f075f6-8401-4a73-8c3b-dbc85c64e31d" />
+<img width="200" height="261" alt="WhatsApp Image 2026-07-31 at 11 26 09 AM" src="https://github.com/user-attachments/assets/f3f075f6-8401-4a73-8c3b-dbc85c64e31d" />
 
 
 BUJA – Heavy-Duty Multi-DOF Robotic Arm with Arduino Mega-Based Manual Control and High-torque Servo Motors for Heavy-Duty Object Manipulation and Real-Time Manual Control.
